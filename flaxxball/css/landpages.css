@@ -9,7 +9,7 @@ html {
 }
 
 .main_page {
-    width: 100%;
+    width: 100vw;
     max-width: 430px;
     position: relative;
     margin: 0 auto;
@@ -22,14 +22,14 @@ html {
 
 .img {
     max-width: 460px;
-     width: 100%; 
+     width: 100vw; 
      height: auto; 
 }
 
 .price {
     display: inline-block;
-    width: 430px;
-    max-width: 100%;
+    width: 100vw;
+    max-width: 430px;
     border-radius: 12px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
     margin-bottom: 20px;
@@ -156,7 +156,7 @@ a {
 }
 
 .img_c {
-    width: 33%;
+    width: 33vw;
     height: auto;
 }
 
@@ -170,12 +170,12 @@ a {
 }
 
 .flexxball_video{
-    width: 100%;  
+    width: 100vw;  
     margin-bottom: 25px;
 }
 
 .title {
-    width: 100%;
+    width: 100vw;
     float: left;
     text-align: center;
     line-height: 1.2;
@@ -222,14 +222,14 @@ a {
 .order_steps1:before, .order_steps1:after {
     display: block;
     content: '';
-    width: 100%;
+    width: 100vw;
     height: 20px;
     position: absolute;
     left: 0;
 }
 .order_steps1 .step_item {
     display: table;
-    width: 100%;
+    width: 100vw;
     height: 110px;
     background: #fff url(./img/bg_light.jpg);
     position: relative;
@@ -238,7 +238,7 @@ a {
 .order_steps1 .step_item:before {
     display: block;
     content: '';
-    width: 100%;
+    width: 100vw;
     height: 25px;
     background-image: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(2,2,2,0.05) 100%);
     position: absolute;
@@ -258,11 +258,11 @@ a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100vw;
 }
 
 .order_img {
-    height: 100%;
+    height: 100vw;
     width: 53%;
 }
 
@@ -278,13 +278,13 @@ img {
 }
 
 .txt1 {
-    width: 47%;
+    width: 47vw;
     margin: auto 0;
     padding-right: 10%;
 }
 
 .txt2 {
-    width: 47%;
+    width: 47vw;
     margin: auto 0;
     padding-left: 10%;
 }
