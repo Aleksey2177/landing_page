@@ -176,7 +176,8 @@ a {
 }
 
 .title {
-    width: 100%;
+    max-width: 100%;
+    width: 100vw;
     float: left;
     text-align: center;
     line-height: 1.2;
