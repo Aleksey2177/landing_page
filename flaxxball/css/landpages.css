@@ -23,6 +23,7 @@ html {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    min-height: 590px;
     justify-content: space-between;
 }
 
@@ -164,7 +165,7 @@ a {
 .img_c {
     width: 33%;
     max-width: 33%;
-    height: 100px;
+    height: auto;
     max-height: 200px;
 }
 
