@@ -22,7 +22,7 @@ html {
 
 .img {
     max-width: 460px;
-     width: 100wh; 
+     width: 100%; 
      height: auto; 
 }
 
@@ -171,7 +171,8 @@ a {
 }
 
 .flexxball_video{
-    width: 100%;  
+    max-width: 100%;  
+    width: 100vw;
     margin-bottom: 25px;
 }
 
@@ -580,6 +581,7 @@ p.spec_name {
     box-sizing: border-box;
     margin-bottom: 30px;
     margin: 0;
+    width: 100%;
     padding: 0;
     border: 0;
     outline: 0;
@@ -625,7 +627,7 @@ p.spec_name {
 }
 
 .m1-form {
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
