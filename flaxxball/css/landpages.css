@@ -165,7 +165,7 @@ a {
     width: 33%;
     max-width: 33%;
     height: auto;
-    max-height: auto;
+    max-height: 200px;
 }
 
 .img_consist_of
