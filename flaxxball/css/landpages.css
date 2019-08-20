@@ -165,6 +165,7 @@ a {
     width: 33%;
     max-width: 33%;
     height: auto;
+    max-height: 100%;
 }
 
 .img_consist_of
@@ -174,6 +175,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    max-height: 100%;
 }
 
 .flexxball_video{
