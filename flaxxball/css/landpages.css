@@ -164,7 +164,7 @@ a {
 .img_c {
     width: 33%;
     max-width: 33%;
-    height: auto;
+    height: 100px;
     max-height: 200px;
 }
 
