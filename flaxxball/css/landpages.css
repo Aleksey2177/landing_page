@@ -30,8 +30,7 @@ html {
     background-color: red;
 }
 .first_screen{
-    height: 100vh;
-    min-height: 590px;
+    min-height: 100vh;
     margin-bottom: 20px;
 }
 
