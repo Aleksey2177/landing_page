@@ -30,11 +30,8 @@ html {
     background-color: red;
 }
 .first_screen{
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     min-height: 590px;
-    justify-content: space-between;
     margin-bottom: 20px;
 }
 
