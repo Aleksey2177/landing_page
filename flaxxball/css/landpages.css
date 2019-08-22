@@ -28,6 +28,7 @@ html {
     font-size: 32px;
     line-height: 40px;
     background-color: red;
+    color: white;
 }
 .first_screen{
     min-height: 100vh;
