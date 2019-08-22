@@ -19,6 +19,10 @@ html {
     overflow: hidden;
 }
 
+.Flexxball_txt {
+    position: relative;
+}
+
 .Flexxball{
     display: block;
     width: 100%;
@@ -29,6 +33,9 @@ html {
     line-height: 40px;
     background-color: red;
     color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .first_screen{
     min-height: 100vh;
@@ -39,7 +46,7 @@ html {
 .img {
     max-width: 460px;
      width: 100%; 
-     height: auto; 
+     height: calc(auto - 40px); 
 }
 
 .price {
