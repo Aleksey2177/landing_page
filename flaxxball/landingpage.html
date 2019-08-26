@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/landpages.css" type="text/css">
     <title>FlexxBoll</title>
+    <script src="./js/slider.js"></script>
 </head>
 <body>
     <header>
@@ -153,24 +154,26 @@
             <div class="first_screen">
                     <section class="b10 b10-avas">
                         <h2 class="venzel"><span class="green">Отзывы о товаре</span> довольных покупателей</h2>
-                        <div class="reviews slick-initialized slick-slider"><button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true" style="">Previous</button>
-                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 300%; transform: translate3d(0px, 0px, 0px);"><div class="rev slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 33%;" tabindex="0">
+                        <div class="reviews slick-initialized slick-slider">
+                            <button onclick="f_sliderclickleft();" id="btnleft" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button">Previous</button>
+                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 300%; transform: translate3d(0px, 0px, 0px);">
+                        <div id="slider1" class="rev slick-slide slick-active" data-slick-index="0" aria-hidden="false" style="width: 33%;" tabindex="0">
                         <img src="img/b10-ava.jpeg">
                         <p>Очень классные подставки и доставка довольно быстрая, заказала сразу 5 комплектов теперь вся моя обувь очень удобно стоит, хочу еще заказать на днях качество просто супер. Спасибо магазину очень довольна покупке.
                         </p>
                         <p class="name"><b>Татьяна Григорьевна</b> 25 лет</p>
-                        </div><div class="rev slick-slide" data-slick-index="1" aria-hidden="true" style="max-width: 33%;" tabindex="-1">
+                        </div><div id="slider2" class="rev slick-slide" data-slick-index="1" aria-hidden="true" style="max-width: 33%;" tabindex="-1">
                         <img src="img/b11-ava.jpeg">
                         <p>Узнал от друга, он мне рекомендовал. Заказал на этом сайте. Действительно, очень удобные подставки для обуви и быстро чистится. Всем рекомендую.</p>
                         <p class="name"><b>Алексей Емельянов</b> 29 лет</p>
-                        </div><div class="rev slick-slide" data-slick-index="2" aria-hidden="true" style="max-width: 33%;" tabindex="-1">
+                        </div><div id="slider3" class="rev slick-slide" data-slick-index="2" aria-hidden="true" style="max-width: 33%;" tabindex="-1">
                         <img src="img/b12-ava.jpeg">
                         <p>Всегда у меня беспорядок в прихожей с обувью. Увидев такую вещь сразу заказал десять штук. Теперь в прихожей появилось довольно просторное место. я доволен своим решением и конечно благодарю интернет магазин. </p>
                         <p class="name"><b>Максим Помигалов</b> 31 года</p>
                         </div></div></div>
                         
                         
-                        <button class="slick-next slick-arrow" aria-label="Next" type="button" style="" aria-disabled="false">Next</button></div>
+                        <button onclick="f_sliderclickright();" class="slick-next slick-arrow" aria-label="Next" type="button" aria-disabled="false">Next</button></div>
                 </section>     
             </div>
                 
