@@ -16,7 +16,7 @@ function f_sliderclickleft(){
 function f_sliderclickright(){
     var element;
 
-    if (slider_index < 3)
+    if (slider_index < 5)
     {
       element = document.getElementById("slider" + slider_index);
       element.classList.remove("slick-active");

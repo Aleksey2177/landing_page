@@ -379,6 +379,12 @@ h2.title_zakaz:after {
     -webkit-tap-highlight-color: transparent;
 }
 
+.slick-slide img {
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+}
+
 .slick-list
 {
     position: relative;
