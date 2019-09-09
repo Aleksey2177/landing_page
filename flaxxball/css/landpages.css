@@ -45,6 +45,11 @@ html {
     justify-content: space-between;
 }
 
+.last_screen{
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
 
 .img {
     max-width: 460px;
